@@ -1,0 +1,209 @@
+[
+  {
+    "id": "filesystem",
+    "name": "Filesystem MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "tools",
+    "description": "Доступ к файловой системе: чтение, запись, навигация по директориям",
+    "tags": ["files", "filesystem", "read", "write", "directories"],
+    "relevance_keywords": [
+      "файлы",
+      "чтение файлов",
+      "запись файлов",
+      "директории"
+    ],
+    "priority": "high",
+    "use_when": "Для работы с локальными файлами и проектами"
+  },
+  {
+    "id": "github",
+    "name": "GitHub MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "devops",
+    "description": "Управление репозиториями GitHub: PR, issues, actions, code review",
+    "tags": ["github", "git", "repository", "pr", "issues", "ci-cd"],
+    "relevance_keywords": ["github", "репозиторий", "pull request", "issues"],
+    "priority": "high",
+    "use_when": "Для управления кодом и CI/CD через GitHub"
+  },
+  {
+    "id": "postgres",
+    "name": "PostgreSQL MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "database",
+    "description": "Прямой доступ к PostgreSQL: выполнение запросов, управление схемами, миграции",
+    "tags": ["postgresql", "database", "sql", "query", "schema", "migration"],
+    "relevance_keywords": [
+      "postgresql",
+      "postgres",
+      "база данных",
+      "sql запросы"
+    ],
+    "priority": "high",
+    "use_when": "Для работы с PostgreSQL базами данных"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "database",
+    "description": "Лёгкая встраиваемая БД: выполнение SQL-запросов, аналитика данных",
+    "tags": ["sqlite", "database", "sql", "embedded", "lightweight"],
+    "relevance_keywords": ["sqlite", "лёгкая база", "встраиваемая бд"],
+    "priority": "medium",
+    "use_when": "Для работы с локальными SQLite базами"
+  },
+  {
+    "id": "redis",
+    "name": "Redis MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "database",
+    "description": "Кэширование, очереди сообщений, pub/sub, управление сессиями",
+    "tags": ["redis", "cache", "queue", "pubsub", "session", "nosql"],
+    "relevance_keywords": ["redis", "кэш", "очередь", "сессии", "pubsub"],
+    "priority": "high",
+    "use_when": "Для кэширования и очередей сообщений"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "frontend",
+    "description": "Браузерная автоматизация: скриншоты, скрапинг, тестирование UI",
+    "tags": [
+      "puppeteer",
+      "browser",
+      "automation",
+      "scraping",
+      "testing",
+      "chrome"
+    ],
+    "relevance_keywords": [
+      "скрапинг",
+      "автоматизация браузера",
+      "скриншот",
+      "тестирование"
+    ],
+    "priority": "high",
+    "use_when": "Для браузерной автоматизации и тестирования"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "frontend",
+    "description": "Кросс-браузерная автоматизация: тестирование, скриншоты, PDF",
+    "tags": ["playwright", "browser", "automation", "testing", "e2e"],
+    "relevance_keywords": ["playwright", "e2e тесты", "браузер автоматизация"],
+    "priority": "high",
+    "use_when": "Для E2E тестирования и кросс-браузерной автоматизации"
+  },
+  {
+    "id": "google-maps",
+    "name": "Google Maps MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "api",
+    "description": "Геокодирование, построение маршрутов, поиск мест, расчёт расстояний",
+    "tags": ["google-maps", "geocoding", "routes", "places", "geo", "maps"],
+    "relevance_keywords": ["карта", "геолокация", "маршрут", "address", "geo"],
+    "priority": "medium",
+    "use_when": "Для работы с географическими данными и картами"
+  },
+  {
+    "id": "slack",
+    "name": "Slack MCP",
+    "type": "mcp",
+    "category": "business",
+    "subcategory": "communication",
+    "description": "Отправка сообщений, управление каналами, поиск в Slack",
+    "tags": ["slack", "messaging", "channels", "notifications", "team"],
+    "relevance_keywords": ["slack", "мессенджер", "уведомления", "сообщения"],
+    "priority": "medium",
+    "use_when": "Для автоматизации Slack-уведомлений и коммуникации"
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics MCP",
+    "type": "mcp",
+    "category": "marketing",
+    "subcategory": "analytics",
+    "description": "Отчёты Google Analytics: воронки, ключевые метрики, трафик",
+    "tags": ["analytics", "ga4", "marketing", "metrics", "reports", "traffic"],
+    "relevance_keywords": [
+      "аналитика",
+      "google analytics",
+      "трафик",
+      "метрики"
+    ],
+    "priority": "high",
+    "use_when": "Для анализа трафика и маркетинговых метрик"
+  },
+  {
+    "id": "docker",
+    "name": "Docker MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "devops",
+    "description": "Управление контейнерами, образами, сетями и томами Docker",
+    "tags": ["docker", "containers", "devops", "deployment", "images"],
+    "relevance_keywords": ["docker", "контейнер", "образ", "деплой"],
+    "priority": "medium",
+    "use_when": "Для управления Docker-инфраструктурой"
+  },
+  {
+    "id": "git",
+    "name": "Git MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "devops",
+    "description": "Управление Git-репозиториями: commit, branch, merge, push, pull",
+    "tags": ["git", "version-control", "commit", "branch", "merge"],
+    "relevance_keywords": ["git", "коммит", "ветка", "merge", "push"],
+    "priority": "high",
+    "use_when": "Для управления версиями кода через Git"
+  },
+  {
+    "id": "memory",
+    "name": "Memory MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "ai",
+    "description": "Долговременная память для AI-агентов: сохранение и извлечение контекста",
+    "tags": ["memory", "ai", "context", "persistence", "storage"],
+    "relevance_keywords": ["память", "контекст", "сохранение", "ai агент"],
+    "priority": "medium",
+    "use_when": "Для сохранения контекста между сессиями AI-агента"
+  },
+  {
+    "id": "fetch",
+    "name": "Fetch MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "tools",
+    "description": "Загрузка веб-контента: HTTP-запросы, парсинг HTML, извлечение данных",
+    "tags": ["fetch", "http", "web", "scraping", "html", "parser"],
+    "relevance_keywords": ["загрузить url", "парсинг сайта", "http запрос"],
+    "priority": "high",
+    "use_when": "Для загрузки и парсинга веб-страниц"
+  },
+  {
+    "id": "brave-search",
+    "name": "Brave Search MCP",
+    "type": "mcp",
+    "category": "dev",
+    "subcategory": "tools",
+    "description": "Поиск в интернете через Brave Search API: веб, изображения, новости",
+    "tags": ["search", "brave", "web-search", "api"],
+    "relevance_keywords": ["поиск", "google", "bing", "веб поиск"],
+    "priority": "medium",
+    "use_when": "Для поиска информации в интернете"
+  }
+]

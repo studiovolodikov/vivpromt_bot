@@ -1,0 +1,14 @@
+# Telegram Bot
+aiogram
+
+# Groq API
+groq
+
+# Utilities
+python-dotenv
+pydantic
+pydantic-settings
+
+# Testing
+pytest
+pytest-asyncio
