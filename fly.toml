@@ -1,0 +1,10 @@
+app = \"vivpromt-bot\"  
+primary_region = \"ams\"  
+  
+[build]  
+  dockerfile = \"Dockerfile\"  
+  
+[env]  
+  GROQ_MODEL = \"groq/compound\"  
+  RATE_LIMIT_PER_MINUTE = \"10\"  
+  LOG_LEVEL = \"INFO\" 
